@@ -1,0 +1,8 @@
+---
+title: "Sources"
+author: "Iris Li"
+---
+
+Data source: https://gis.data.ca.gov/datasets/aea15307150f4463909d5cc1b8da6232_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D
+
+I did not remove any observations nor manipulate the data.

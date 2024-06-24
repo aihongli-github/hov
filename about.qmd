@@ -1,0 +1,14 @@
+---
+title: "About"
+---
+
+By Iris Li
+
+Github: https://github.com/aihongli-github
+
+Email: aihongli@gmail.com
+
+My hov lane study project: https://github.com/aihongli-github/hov
+
+This project was created as a part of Kane’s Data Science Bootcamp https://bootcamp.davidkane.info/ 
+

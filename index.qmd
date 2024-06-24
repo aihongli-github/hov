@@ -1,0 +1,24 @@
+---
+title: "Iris Li's HOV lane studies"
+execute:
+  echo: false
+  
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| label: setup
+
+library(tidyverse)
+```
+
+```{r}
+##Guess which direction has longer HOV lanes?
+hov<- read.csv("HOV.csv")
+hov1 <- hov %>%
+  group_by(Direction)%>%
+  summarize(length = sum(Length__Lane_Miles_, na.rm = TRUE))
+hov1 |> ggplot(aes(x = Direction, y = length))+ geom_point() + labs(title = "HOV Lane Length by Direction", subtitle = "South and North bound has longer HOV lanes", y = "Length", caption ="Data Source: https://gis.data.ca.gov/datasets/") + theme_minimal()
+```
+

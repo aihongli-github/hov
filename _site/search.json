@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Sources",
+    "section": "",
+    "text": "Data source: https://gis.data.ca.gov/datasets/aea15307150f4463909d5cc1b8da6232_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D\nI did not remove any observations nor manipulate the data."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "By Iris Li\nGithub: https://github.com/aihongli-github\nEmail: aihongli@gmail.com\nMy hov lane study project: https://github.com/aihongli-github/hov\nThis project was created as a part of Kane’s Data Science Bootcamp https://bootcamp.davidkane.info/"
+  }
+]
